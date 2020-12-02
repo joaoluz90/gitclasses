@@ -26,4 +26,8 @@ public class Unit {
     public String getName() {return name; }
     public int getCredits() {return credits; }
     public ArrayList<Student> getStudents() {return students; }
+
+	public ArrayList<Unit> getTeachers() {
+		return null;
+	}
 }
